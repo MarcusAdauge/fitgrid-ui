@@ -1,0 +1,29 @@
+.exercise-form {
+    .ant-space {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 3rem !important;
+        margin-bottom: 8px;
+
+        .ant-space-item {
+            .ant-form-item {
+                input {
+                    border-radius: 0;
+                    border-bottom: 1px solid gray;
+                }
+            }
+    
+            &:nth-child(1) { flex: 0.35; }
+            &:nth-child(2) { flex: 0.35; }
+            &:nth-child(3) { flex: 0.2; }
+            &:nth-child(4) { flex: 0.1; text-align: right; }
+        }
+    }
+
+    .btn-add-exercise {
+        display: block;
+        margin-left: auto;
+        padding-right: 0;
+    }
+}

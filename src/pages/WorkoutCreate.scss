@@ -1,0 +1,25 @@
+.workout-create {
+    .days {
+        width: 100%;
+        .day {
+            width: calc(100% / 7);
+
+            &:first-child { border-radius: 2rem 0 0 2rem; }
+            &:last-child { border-radius: 0 2rem 2rem 0; }
+        }
+    }
+
+    .actions {
+        .btn-save {
+            margin-right: 8px;
+        }
+    }
+
+    .btn-add-group {
+        width: 300px;
+        display: block;
+        background-color: transparent;
+        border-width: 2px;
+        margin: 1.5rem auto 0;
+    }
+}

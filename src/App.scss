@@ -1,0 +1,54 @@
+@import '~antd/dist/antd.css';
+@import './style/variables.scss';
+
+body {
+  background-color: $background;
+}
+
+.App {
+  height: 100vh;
+  padding-top: 1rem;
+
+  .feature {
+    width: 1200px;
+    margin: 0 auto;
+    padding-top: 1rem;
+    background-color: transparent;
+  }
+}
+
+.ant-btn-primary.btn-secondary {
+  background-color: $secondary;
+  background: $secondary;
+  border-color: $secondary;
+}
+
+.ant-btn-primary,
+.ant-btn-primary.btn-primary {
+  background-color: $primary;
+  background: $primary;
+  border-color: $primary;
+}
+
+.ant-btn-circle.btn-primary {
+  background-color: $primary;
+  background: $primary;
+  border-color: $primary;
+
+  &:hover {
+    background-color: $primary-light-1;
+  }
+
+  &.ant-btn-icon-only {
+    svg { fill: white; }
+  }
+}
+
+.ant-btn-link.btn-secondary {
+  color: $secondary;
+}
+
+.ant-btn-link,
+.ant-btn-link.btn-primary {
+  color: $primary;
+}

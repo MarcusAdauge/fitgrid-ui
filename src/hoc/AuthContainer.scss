@@ -1,0 +1,42 @@
+@import './../style/variables';
+
+.auth-layout {
+    background-color: white;
+    
+    &,
+    .row,
+    .col {
+        height: 100%;
+    }
+
+    .col-left {
+        overflow: hidden;
+        height: 100%;
+        background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.52), $secondary),
+            url('../assets/img/login_sider_bw.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position-y: center;
+        position: relative;
+
+        .logo {
+            position: absolute;
+            bottom: 30px;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+    }
+
+    &.login .col-left {
+        background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.52), $primary),
+            url('../assets/img/login_sider_bw.jpg');
+    }
+
+    .col-right {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+    }
+}

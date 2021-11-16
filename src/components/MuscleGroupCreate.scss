@@ -1,0 +1,15 @@
+.muscle-group-create {
+    .group {
+        margin-top: 1.5rem;
+        padding: 1rem;
+        border-radius: 1rem;
+        background: transparent;
+        border: 1px dashed gray;
+    }
+
+    .muscle-select {
+        .ant-select-selection-item {
+            font-size: 1.5rem;
+        }
+    }
+}

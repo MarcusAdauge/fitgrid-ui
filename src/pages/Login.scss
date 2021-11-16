@@ -1,0 +1,16 @@
+.login {
+    .form {
+        width: 60%;
+    }
+
+    .btn-signin {
+        width: 100%;
+    }
+
+    .btn-signup {
+        position: absolute;
+        left: 50%;
+        bottom: 50px;
+        transform: translateX(-50%);
+    }
+}

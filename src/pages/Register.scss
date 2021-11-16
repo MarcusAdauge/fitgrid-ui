@@ -1,0 +1,20 @@
+.register {
+    .form {
+        width: 60%;
+
+        .birthday-picker {
+            width: 100%;
+        }
+    }
+
+    .btn-register {
+        width: 100%;
+    }
+
+    .btn-back-to-login {
+        position: absolute;
+        left: 50%;
+        bottom: 50px;
+        transform: translateX(-50%);
+    }
+}
