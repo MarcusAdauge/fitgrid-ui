@@ -1,9 +1,7 @@
-import { Row, Col, Select, Form, Input, InputNumber, Tooltip, Button } from "antd";
-import { PlusOutlined } from '@ant-design/icons';
-import { useEffect, useState } from "react";
+import { Row, Col, Select } from "antd";
+import { useState } from "react";
 import './MuscleGroupCreate.scss';
 import ExercisesCreate from "./ExercisesCreate";
-import { Utils } from "../services";
 
 const { Option } = Select;
 const muscleGroups = [
@@ -12,12 +10,6 @@ const muscleGroups = [
     'Back',
     'Triceps'
 ]
-// const muscleGroups = [
-//     'value1',
-//     'value2',
-//     'value3',
-//     'value4'
-// ]
 
 const MuscleGroupCreate = ({ group }) => {
     const [ groupName, setGroupName ] = useState(group.name || undefined);
